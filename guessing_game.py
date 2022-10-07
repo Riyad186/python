@@ -10,10 +10,12 @@ while guess_count<guess_limit:
         print("you won!")
         count+=1
     else:
-        print(f"lose {guess_count}th ")
+        #print(f"lose {guess_count}th ")
+        print('you lose')
+        break
 #print(f"you win only {count} time ")
 if count  !=0:
     print(f"you won {count} time")
-else:
-    print('you lose')
+   # print('you lose')
+ 
     
